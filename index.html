@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>KINO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <i class="fa-solid fa-bowl-rice fa-bounce fa-2xs" id="nav_logo"> KINO</i>
+
+            <ul class="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn_default">
+                Peça aqui!
+            </button>
+
+            <button class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div class="mobile_menu">
+            <ul class="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn_default">
+                Peça aqui!
+            </button>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">
+                    O MELHOR SABOR PRA
+                    <span>VOCÊ</span>
+                </h1>
+
+                <p class="description">
+                    Aqui encontras o melhor <span>kino</span> pra você e a sua família, variedade de sabores e muito
+                    mais.
+                    <span>Faça já sua encomenda</span>.
+                </p>
+
+                <div class="cta_buttons">
+                    <a href="#" class="btn_default">
+                        Ver Cardápio
+                    </a>
+
+                    <a href="tel:+244932949195" class="phone_button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone fa-shake"></i>
+                        </button>
+                        (+244) 932-949-195
+                    </a>
+                </div>
+                <div class="social_media_buttons">
+                    <a href="https://wa.me/244932949195" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/offtake_beatz/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/bastizelbastos.bastos.1" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="assets/img/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section_title">Cardápio</h2>
+            <h3 class="section_subtitle">Nossos Pratos Especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="assets/img/dish.png" class="dish_image" alt="">
+
+                    <h3 class="dish_title">
+                        Poké tigela com camarões, Camarões picantes
+                    </h3>
+
+                    <span class="dish_description">
+                        Altamente recomendado para qualquer amante de camarão!
+                        A base, o molho, e mistura e as corturas complementam 
+                        perfeitamente o camarão.
+                    </span>
+
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish_price">
+                        <h4>15.900 KZ</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="assets/img/dish2.png" class="dish_image" alt="">
+
+                    <h3 class="dish_title">
+                        Torrada de queijo quente misto, Pão frances
+                    </h3>
+
+                    <span class="dish_description">
+                        Altamente recomendado para qualquer amante de torrada com queijo! 
+                        A base, o molho, a mistura e as coberturas complementam perfeitamente 
+                        a torrada.
+                    </span>
+
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>(450+)</span>
+                    </div>
+
+                    <div class="dish_price">
+                        <h4>2.500 KZ</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="assets/img/dish3.png" class="dish_image" alt="">
+
+                    <h3 class="dish_title">
+                        Granola de morango e kiwi
+                    </h3>
+
+                    <span class="dish_description">
+                        Uma granola suntuosa e saborosa com infusão de morangos 
+                        e kiwis, Altamente recomendado para qualquer amante de 
+                        morango e kiwi! A base, o molho, a mistura e as coberturas.
+                    </span>
+
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish_price">
+                        <h4>10.000 KZ</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish_heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="assets/img/dish4.png" class="dish_image" alt="">
+
+                    <h3 class="dish_title">
+                        Salada de camarão ademi e massa
+                    </h3>
+
+                    <span class="dish_description">
+                        Altamente recomendado para qualquer amante de camarão! 
+                        A base, o molho, a mistura e as coberturas complementam 
+                        perfeitamente o camarão.
+                    </span>
+
+                    <div class="dish_rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish_price">
+                        <h4>12.000 KZ</h4>
+                        <button class="btn_default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <img src="assets/img/chef.png" class="testimonial_chef" alt="">
+
+            <div class="testimonials_content">
+                <h2 class="section_title">
+                    Depoimentos
+                </h2>
+                <h3 class="section_subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div class="feedbacks">
+                    <div class="feedback">
+                        <img src="assets/img/avatar.png" class="feedback_avatar" alt="">
+
+                        <div class="feedback_content">
+                            <p class="nome">Manuela Afonso
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Super recomendo os pratos da KINO são realmente muito bons e entregam o resultado esperado.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="assets/img/avatar.png" class="feedback_avatar" alt="">
+
+                        <div class="feedback_content">
+                            <p class="nome">Francisca Tomas
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Sinceramente não me arrependo de gastar o meu dinheiro na KINO porque os seus pratos são muito bons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn_default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            <img src="assets/img/wave.svg" alt="">
+
+            <div class="footer_items">
+                <span class="copyright">
+                    &copy; 2024 Bastisel Bastos
+                </span>
+
+                <div class="social_media_buttons">
+                    <a href="https://wa.me/244932949195" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/offtake_beatz/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/bastizelbastos.bastos.1" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
